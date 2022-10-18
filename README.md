@@ -29,10 +29,8 @@ görüntüyü aktaracak topic için opencv_bridge adlı ros paketini kullanmanı
 
 yapay zeka boxları topici içinse eğitimde gösterdiğimiz gibi kendiniz custom bir mesaj oluşturabilirsiniz.
 
-örnek format:
-[class_id1, box1]
-[class_id2, box2]
-...
+bu mesajda class_id'ler, score'lar ve box'ları oluşturun
+
 
 ## Ödevi gönderme
 Kendinize bir github hesabı açın ve bu git reposunun bir fork'unu oluşturun. Yaptıklarınızı da fork üzerinden yapın. Ödevi teslim etmek içinse bu repoya pull request atın.
@@ -45,9 +43,11 @@ yapay zekanın döndürdüğü kutular (sol x kordinatı) (üst y kordinatı) (k
 
 ### Dipnot 1:
 Ödev zorunlu değil ama takıma girmeniz açısından faydalı olacak :)
+Takıldığınız noktaları attığımız kaynaklardan veya genel olarak internetten araştırabilirsiniz.
 
 ### Dipnot 2:
 Yukarıdakilerin tamamını yapmaya çalışın ama yapamazsanız da yapabildiğiniz kadarını gönderin.
 Örneğin cv_bridge'i yapamadınız aynı node'dan görüntüyü alıp yapay zekaya atıp öyle box oluşturabilirsiniz. vs vs
 
+### Ödevin Teslimi 25 Ekim
 
