@@ -31,6 +31,9 @@ yapay zeka boxları topici içinse eğitimde gösterdiğimiz gibi kendiniz custo
 
 bu mesajda class_id'ler, score'lar ve box'ları oluşturun
 
+### Görüntü topicini görme
+görüntü topicine gelen veriyi görmek için ros'un rviz aracını kullanabilirsiniz
+
 
 ## Ödevi gönderme
 Kendinize bir github hesabı açın ve bu git reposunun bir fork'unu oluşturun. Yaptıklarınızı da fork üzerinden yapın. Ödevi teslim etmek içinse bu repoya pull request atın.
