@@ -52,5 +52,5 @@ Takıldığınız noktaları attığımız kaynaklardan veya genel olarak intern
 Yukarıdakilerin tamamını yapmaya çalışın ama yapamazsanız da yapabildiğiniz kadarını gönderin.
 Örneğin cv_bridge'i yapamadınız aynı node'dan görüntüyü alıp yapay zekaya atıp öyle box oluşturabilirsiniz. vs vs
 
-### Ödevin Teslimi 28 Ekim
+### Ödevin Teslimi 26 Ekim
 
