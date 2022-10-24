@@ -1,11 +1,15 @@
 import rospy
+import cv2
 from std_msgs.msg import String
 
 def callback(data):
     rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.data)
     
 def listener():
-
+    net = cv2.dnn.readNet("../ai/yolov4-tiny.weights", "yolov4-tiny.cfg")
+    classes = None
+    with open('../ai/coco.names', 'r') as classes_file:
+        classes = [name.split(',')[0] for name in classes_file.read().split('\n')]
     # In ROS, nodes are uniquely named. If two nodes with the same
     # name are launched, the previous one is kicked off. The
     # anonymous=True flag means that rospy will choose a unique
