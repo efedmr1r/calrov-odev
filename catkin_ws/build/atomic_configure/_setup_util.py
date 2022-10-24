@@ -270,7 +270,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/thunderstorm010/mambaforge/envs/ros_env;/home/thunderstorm010/mambaforge/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/thunderstorm010/calrov-odev/catkin_ws/devel;/home/thunderstorm010/mambaforge/envs/ros_env;/home/thunderstorm010/mambaforge/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
