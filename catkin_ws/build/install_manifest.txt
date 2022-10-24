@@ -11,3 +11,5 @@
 /home/thunderstorm010/calrov-odev/catkin_ws/install/share/calrov_odev_impl/cmake/calrov_odev_implConfig.cmake
 /home/thunderstorm010/calrov-odev/catkin_ws/install/share/calrov_odev_impl/cmake/calrov_odev_implConfig-version.cmake
 /home/thunderstorm010/calrov-odev/catkin_ws/install/share/calrov_odev_impl/package.xml
+/home/thunderstorm010/calrov-odev/catkin_ws/install/lib/calrov_odev_impl/pc.py
+/home/thunderstorm010/calrov-odev/catkin_ws/install/lib/calrov_odev_impl/robot.py

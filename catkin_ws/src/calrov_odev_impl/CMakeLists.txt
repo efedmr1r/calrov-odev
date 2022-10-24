@@ -149,7 +149,7 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
-catkin_install_python(PROGRAMS scripts/img_publisher.py scripts/img_processor.py
+catkin_install_python(PROGRAMS scripts/pc.py scripts/robot.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

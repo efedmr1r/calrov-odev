@@ -58,10 +58,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calrov_odev_impl" TYPE PROGRAM FILES "/home/thunderstorm010/calrov-odev/catkin_ws/build/calrov_odev_impl/catkin_generated/installspace/img_publisher.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calrov_odev_impl" TYPE PROGRAM FILES "/home/thunderstorm010/calrov-odev/catkin_ws/build/calrov_odev_impl/catkin_generated/installspace/pc.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calrov_odev_impl" TYPE PROGRAM FILES "/home/thunderstorm010/calrov-odev/catkin_ws/build/calrov_odev_impl/catkin_generated/installspace/img_processor.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calrov_odev_impl" TYPE PROGRAM FILES "/home/thunderstorm010/calrov-odev/catkin_ws/build/calrov_odev_impl/catkin_generated/installspace/robot.py")
 endif()
 
