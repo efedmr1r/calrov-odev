@@ -1,0 +1,8 @@
+prefix=/home/thunderstorm010/calrov-odev/catkin_ws/install
+
+Name: calrov_odev_impl
+Description: Description of calrov_odev_impl
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

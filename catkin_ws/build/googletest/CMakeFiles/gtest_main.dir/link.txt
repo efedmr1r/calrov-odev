@@ -1,0 +1,2 @@
+/home/thunderstorm010/mambaforge/envs/ros_env/bin/x86_64-conda-linux-gnu-ar qc /home/thunderstorm010/calrov-odev/catkin_ws/build/gmock/lib/libgtest_main.a CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+/home/thunderstorm010/mambaforge/envs/ros_env/bin/x86_64-conda-linux-gnu-ranlib /home/thunderstorm010/calrov-odev/catkin_ws/build/gmock/lib/libgtest_main.a

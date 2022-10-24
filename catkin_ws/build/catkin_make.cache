@@ -1,0 +1,2 @@
+calrov_odev_impl
+-DCATKIN_DEVEL_PREFIX=/home/thunderstorm010/calrov-odev/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/thunderstorm010/calrov-odev/catkin_ws/install -G Unix Makefiles
