@@ -8,24 +8,24 @@ import numpy as np
 import time
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
-from std_msgs import String
-from numpy_ros import to_message
-lock = threading.Lock()
+from std_msgs.msg import String
+
+# lock = threading.Lock()
 
 def callback(data, args: Tuple[Any, CvBridge, List[str], rospy.Publisher]):
-    lock.acquire()
-    (net, bridge, classes) = args
+    (net, bridge, classes, pub) = args
     cv_img = bridge.imgmsg_to_cv2(data)
     blob: np.ndarray = cv2.dnn.blobFromImage(cv_img, 1/255.0, (416, 416), (0,0,0), True)
     net.setInput(blob)
     out = net.forward()
-    
+    mapped_out = "TODO" # TODO somehow extract data from out to mapped_out
+    pub.publish(mapped_out)
 
     
 def listener():
     net = cv2.dnn.readNet("../ai/yolov4-tiny.cfg", "../ai/yolov4-tiny.weights")
     bridge = CvBridge()
-    pub = rospy.Publisher("ai_result", String)
+    pub = rospy.Publisher("ai_result", String, queue_size=10)
     classes = None
     with open('../ai/coco.names', 'r') as classes_file:
         classes = classes_file.readlines()
@@ -35,7 +35,7 @@ def listener():
     # name for our 'listener' node so that multiple listeners can
     # run simultaneously.
     rospy.init_node('pc', anonymous=True)
-    rospy.Subscriber("img_proc", Image, callback, (net, bridge, classes))
+    rospy.Subscriber("img_proc", Image, callback, (net, bridge, classes, pub))
 
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()
