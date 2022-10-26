@@ -1,0 +1,179 @@
+actionlib==1.13.2
+angles==1.9.13
+argcomplete @ file:///home/conda/feedstock_root/build_artifacts/argcomplete_1641290081297/work
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1659291887007/work
+bcrypt @ file:///home/conda/feedstock_root/build_artifacts/bcrypt_1651441533234/work
+bondpy==1.8.6
+catkin==0.8.10
+catkin-pkg @ file:///home/conda/feedstock_root/build_artifacts/catkin_pkg_1653705059873/work
+catkin-tools @ file:///home/conda/feedstock_root/build_artifacts/catkin_tools_1654801778770/work
+certifi==2022.9.24
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1666183769734/work
+colcon-argcomplete @ file:///home/conda/feedstock_root/build_artifacts/colcon-argcomplete_1649143410380/work
+colcon-bash @ file:///home/conda/feedstock_root/build_artifacts/colcon-bash_1649143583193/work
+colcon-cd @ file:///home/conda/feedstock_root/build_artifacts/colcon-cd_1649143092283/work
+colcon-cmake @ file:///home/conda/feedstock_root/build_artifacts/colcon-cmake_1661994787045/work
+colcon-common-extensions @ file:///home/conda/feedstock_root/build_artifacts/colcon-common-extensions_1649749042305/work
+colcon-core @ file:///home/conda/feedstock_root/build_artifacts/colcon-core_1656567244141/work
+colcon-defaults==0.2.5
+colcon-devtools==0.2.2
+colcon-library-path==0.2.1
+colcon-metadata @ file:///home/conda/feedstock_root/build_artifacts/colcon-metadata_1597041627739/work
+colcon-output @ file:///home/conda/feedstock_root/build_artifacts/colcon-output_1601935752417/work
+colcon-package-information==0.3.3
+colcon-package-selection @ file:///home/conda/feedstock_root/build_artifacts/colcon-package-selection_1602006931176/work
+colcon-parallel-executor==0.2.4
+colcon-pkg-config==0.1.0
+colcon-powershell==0.3.6
+colcon-python-setup-py @ file:///home/conda/feedstock_root/build_artifacts/colcon-python-setup-py_1601954456112/work
+colcon-recursive-crawl==0.2.1
+colcon-ros @ file:///home/conda/feedstock_root/build_artifacts/colcon-ros_1649749142690/work
+colcon-test-result==0.3.8
+colcon-zsh @ file:///home/conda/feedstock_root/build_artifacts/colcon-zsh_1649143257569/work
+coloredlogs @ file:///home/conda/feedstock_root/build_artifacts/coloredlogs_1643220139154/work
+contourpy @ file:///home/conda/feedstock_root/build_artifacts/contourpy_1662135108659/work
+coverage @ file:///home/conda/feedstock_root/build_artifacts/coverage_1664603927191/work
+cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography_1666563380768/work
+cv-bridge==1.16.1
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
+defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+diagnostic-analysis==1.11.0
+diagnostic-common-diagnostics==1.11.0
+diagnostic-updater==1.11.0
+distlib @ file:///home/conda/feedstock_root/build_artifacts/distlib_1657828092311/work
+distro @ file:///home/conda/feedstock_root/build_artifacts/distro_1636872986284/work
+docutils @ file:///home/conda/feedstock_root/build_artifacts/docutils_1657104277525/work
+dynamic-reconfigure==1.7.3
+empy==3.3.4
+fonttools @ file:///home/conda/feedstock_root/build_artifacts/fonttools_1666389890687/work
+gencpp==0.6.5
+geneus==3.0.0
+genlisp==0.4.18
+genmsg==0.5.16
+gennodejs==2.0.2
+genpy==0.6.15
+humanfriendly @ file:///home/conda/feedstock_root/build_artifacts/humanfriendly_1643137149174/work
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1653252797772/work
+iniconfig @ file:///home/conda/feedstock_root/build_artifacts/iniconfig_1603384189793/work
+interactive-markers==1.12.0
+joint-state-publisher==1.15.0
+joint-state-publisher-gui==1.15.0
+kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/kiwisolver_1657953076186/work
+laser-geometry==1.6.7
+lz4 @ file:///home/conda/feedstock_root/build_artifacts/lz4_1652795536065/work
+matplotlib @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-suite_1665498656372/work
+message-filters==1.15.14
+munkres==1.1.4
+netifaces @ file:///home/conda/feedstock_root/build_artifacts/netifaces_1655699471816/work
+nose @ file:///home/conda/feedstock_root/build_artifacts/nose_1602434998960/work
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1666092557425/work
+numpy-quaternion==2021.11.4.15.26.3
+numpy-ros==0.1.3
+opencv-python==4.5.5
+osrf-pycommon @ file:///home/conda/feedstock_root/build_artifacts/osrf_pycommon_1626758968833/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
+paramiko @ file:///home/conda/feedstock_root/build_artifacts/paramiko_1652792654356/work
+Pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1660385855509/work
+pluggy @ file:///home/conda/feedstock_root/build_artifacts/pluggy_1648772597647/work
+psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1666155388302/work
+py @ file:///home/conda/feedstock_root/build_artifacts/py_1636301881863/work
+pybind11 @ file:///home/conda/feedstock_root/build_artifacts/pybind11-split_1657939773764/work
+pybind11-global @ file:///home/conda/feedstock_root/build_artifacts/pybind11-split_1657939773764/work
+pycairo==1.21.0
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pycryptodome @ file:///home/conda/feedstock_root/build_artifacts/pycryptodome_1657163467478/work
+pycryptodomex @ file:///home/conda/feedstock_root/build_artifacts/pycryptodomex_1657164985923/work
+pydot @ file:///home/conda/feedstock_root/build_artifacts/pydot_1654961309803/work
+PyNaCl @ file:///home/conda/feedstock_root/build_artifacts/pynacl_1649519974080/work
+PyOpenGL @ file:///home/conda/feedstock_root/build_artifacts/pyopengl_1652285526610/work
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1652235407899/work
+PyQt5==5.12.3
+PyQt5_sip==4.19.18
+PyQtChart==5.12
+PyQtWebEngine==5.12.1
+pytest==7.1.3
+pytest-cov @ file:///home/conda/feedstock_root/build_artifacts/pytest-cov_1664412836798/work
+pytest-repeat @ file:///home/conda/feedstock_root/build_artifacts/pytest-repeat_1647874097344/work
+pytest-rerunfailures @ file:///home/conda/feedstock_root/build_artifacts/pytest-rerunfailures_1631878624760/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+python-gnupg @ file:///home/conda/feedstock_root/build_artifacts/python-gnupg_1661383512006/work
+python-qt-binding==0.4.4
+PyYAML @ file:///home/conda/feedstock_root/build_artifacts/pyyaml_1648757097602/work
+qt-dotgraph==0.4.2
+qt-gui==0.4.2
+qt-gui-cpp==0.4.2
+qt-gui-py-common==0.4.2
+resource-retriever==1.12.7
+rosbag==1.15.14
+rosboost-cfg==1.15.8
+rosclean==1.15.8
+roscreate==1.15.8
+rosdep @ file:///home/conda/feedstock_root/build_artifacts/rosdep_1656717655671/work
+rosdistro @ file:///home/conda/feedstock_root/build_artifacts/rosdistro_1655714069956/work
+rosgraph==1.15.14
+roslaunch==1.15.14
+roslib==1.15.8
+roslint==0.12.0
+roslz4==1.15.14
+rosmake==1.15.8
+rosmaster==1.15.14
+rosmsg==1.15.14
+rosnode==1.15.14
+rosparam==1.15.14
+rospkg @ file:///home/conda/feedstock_root/build_artifacts/rospkg_1646953517998/work
+rospy==1.15.14
+rosservice==1.15.14
+rostest==1.15.14
+rostopic==1.15.14
+rosunit==1.15.8
+roswtf==1.15.14
+rqt-action==0.4.9
+rqt-bag==0.5.1
+rqt-bag-plugins==0.5.1
+rqt-console==0.4.11
+rqt-dep==0.4.12
+rqt-graph==0.4.14
+rqt-gui==0.5.3
+rqt-gui-py==0.5.3
+rqt-image-view==0.4.16
+rqt-launch==0.4.9
+rqt-logger-level==0.4.11
+rqt-moveit==0.5.10
+rqt-msg==0.4.10
+rqt-nav-view==0.5.7
+rqt-plot==0.4.13
+rqt-pose-view==0.5.11
+rqt-publisher==0.4.10
+rqt-py-common==0.5.2
+rqt-py-console==0.4.10
+rqt-reconfigure==0.5.4
+rqt-robot-dashboard==0.5.8
+rqt-robot-monitor==0.5.13
+rqt-robot-steering==0.5.12
+rqt-runtime-monitor==0.5.9
+rqt-rviz==0.7.0
+rqt-service-caller==0.4.10
+rqt-shell==0.4.11
+rqt-srv==0.4.9
+rqt-tf-tree==0.6.2
+rqt-top==0.4.10
+rqt-topic==0.4.13
+rqt-web==0.4.10
+rviz==1.14.19
+sensor-msgs==1.13.1
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+smach==2.5.0
+smach-ros==2.5.0
+smclib==1.8.6
+tf==1.13.2
+tf-conversions==1.13.2
+tf2-geometry-msgs==0.7.5
+tf2-kdl==0.7.5
+tf2-py==0.7.5
+tf2-ros==0.7.5
+toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1604308577558/work
+tomli @ file:///home/conda/feedstock_root/build_artifacts/tomli_1644342247877/work
+topic-tools==1.15.14
+unicodedata2 @ file:///home/conda/feedstock_root/build_artifacts/unicodedata2_1649111919389/work
+xacro==1.14.13
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1665306627898/work
