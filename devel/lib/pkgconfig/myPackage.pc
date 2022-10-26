@@ -1,0 +1,8 @@
+prefix=/home/aakif/python_catkin/devel
+
+Name: myPackage
+Description: Description of myPackage
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
