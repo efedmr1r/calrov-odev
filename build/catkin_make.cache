@@ -1,0 +1,2 @@
+mypackage
+-DCATKIN_DEVEL_PREFIX=/home/aakif/python_catkin/devel -DCMAKE_INSTALL_PREFIX=/home/aakif/python_catkin/install -G Unix Makefiles
